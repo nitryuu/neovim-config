@@ -1,5 +1,0 @@
-return {
-  {
-    "Jorengarenar/vim-syntaxMarkerFold",
-  },
-}

@@ -3,6 +3,8 @@
 -- Add any additional keymaps here
 vim.keymap.set("n", "<c-w>", "<leader>bd", { remap = true, silent = true })
 vim.keymap.set("n", "<leader>fm", ":Telescope media_files <CR>", { remap = true, silent = true })
+vim.keymap.set("n", "|", ":vsplit <CR>", { remap = true, silent = true })
+vim.keymap.set("n", "-", ":split <CR>", { remap = true, silent = true })
 
 -- vim tmux navigator
 vim.keymap.set("n", "<c-h>", "<cmd>TmuxNavigateLeft<cr>", { silent = true })

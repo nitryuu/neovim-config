@@ -5,3 +5,11 @@ vim.background = "dark"
 vim.opt.winbar = "%=%m %f"
 vim.opt.title = true
 vim.opt.titlestring = "NEOVIM"
+vim.opt.foldenable = true
+vim.opt.foldlevel = 99
+vim.opt.foldlevelstart = 99
+vim.filetype.add({
+  extension = {
+    mdx = "markdown",
+  }
+})
